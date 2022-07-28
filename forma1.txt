@@ -1,0 +1,23 @@
+Forma 1:
+
+1) npm init
+2) Presionar Enter hasta llegar a la pregunta "Is this ok?"
+3) Contestar la pregunta colocando una y
+4) Despues de escribir la y presionar enter
+5) npm install -D node-sass nodemon
+6) Crear archivo .gitignore y dentro colocarle /node_modules para que no se les suba a github
+7) Crear carpeta scss y dentro un archivo con la extension .scss (ejemplo: styles.scss), y un archivo CSS en caso que no lo tengan
+8) Abrir archivo package.json, ir al final de la línea 7 escribir una coma y debajo escribir:
+
+ "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+ "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+ 9) En la línea del build-css, donde dice scss/style.scss css/main.css cambiarlo por el nombre de sus propios archivos
+
+ 10) Copiar todo el contenido de su CSS en un word, un bloc de notas o donde quieran.
+
+ 11) npm run watch-css
+
+ 12) Como seguro se te borró todo el CSS, toma de nuevo el código que copiaste en word o bloc de notas, y pegalo en tu archivo SCSS
+
+ 13) Guarda y ya te deberia andar. Se comprueba viendo si lo que estaba en SASS se pasó automáticamente al CSS.

@@ -1,0 +1,10 @@
+Forma 2:
+
+1) REPETIR PASOS DEL 1 AL 4 DE LA FORMA 1.
+2) npm install -g sass
+3) Crear carpeta y archivo scss.
+4) sass --watch scss/styles.scss css/styles.css
+5) En el comando anterior, van los nombres de sus propios archivos.
+6) Ya debería andar.
+
+NOTA: EN EL PASO 4 SIEMPRE SIEMPRE DEBE ESCRIBIRSE PRIMERO EL ARCHIVO SCSS, Y DESPUES EL CSS.

@@ -1,0 +1,38 @@
+/* Estilos home*/ /*paleta de colores*/
+/*espaciados*/
+/*fuentes*/
+h1 {
+  color: blue;
+  margin: 40px 30px;
+  font-family: arial;
+}
+
+p {
+  color: blue;
+}
+
+.lista-navegacion {
+  list-style: none;
+}
+.lista-navegacion li {
+  padding: 15px;
+  display: inline-block;
+}
+.lista-navegacion li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #444;
+}
+.lista-navegacion li a:hover {
+  background-color: yellow;
+}
+
+/*estilos contacto*/
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/*estilos galeria*/
+
+/*# sourceMappingURL=styles.css.map */
